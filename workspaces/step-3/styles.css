@@ -1,0 +1,20 @@
+.module {
+    cursor: pointer;
+}
+.module.selected > rect.container {
+	fill: #FDE047;
+}
+.info-panel {
+    max-height: 80px;
+    overflow-y: auto;
+}
+.info {
+    display: none;
+    margin-top: 8px;
+    border-left: 4px solid #FDE047;
+    background: rgba(253, 224, 71, .33);
+    padding: 4px 8px;
+}
+.info.show {
+    display: block;
+}
